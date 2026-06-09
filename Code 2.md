@@ -96,11 +96,11 @@ od;
 
 ## Conclusion
 
-| Order | $|V|$ | Rational Groups | Rational? | Notes |
+| Order | \|V\| | Rational Groups | Rational? | Notes |
 |:---:|:---:|:---|:---:|:---|
 | 240 | 2 | SG(240,89), SG(240,90), SG(240,91) | ✗ | Non-split extensions |
-| 240 | 2 | SG(240,189) = $C_2 \times S_5$ | ✓ | Direct product (trivial module) |
-| 1920 | 16 | SG(1920,240610) = $C_2^4 \times S_5$ | ✓ | Direct product (trivial module) |
+| 240 | 2 | SG(240,189) = C₂ × S₅ | ✓ | Direct product (trivial module) |
+| 1920 | 16 | SG(1920,240610) = C₂⁴ × S₅ | ✓ | Direct product (trivial module) |
 | **1920** | **16** | **SG(1920,240993), SG(1920,240996)** | **✓** | **Irreducible 4-dimensional module** |
 
 Among all groups of the form $V.\mathrm{S}_5$ with $V$ an elementary abelian $2$-group and $G/V \cong S_5$, the rational ones are:

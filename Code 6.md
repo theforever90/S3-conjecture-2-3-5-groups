@@ -3,31 +3,31 @@
 ## Purpose
 
 Let
-\[
+$$
 A=\mathrm{Aut}(\mathrm{PSp}_4(3)).
-\]
-This code searches the irreducible GF(2)- and GF(5)-modules \(V\) of \(A\)
-for extensions \(V.A\) satisfying the following two conditions:
+$$
+This code searches the irreducible GF(2)- and GF(5)-modules $V$ of $A$
+for extensions $V.A$ satisfying the following two conditions:
 
 1. the extension is rational;
-2. it contains an element of order \(9\) whose centralizer has order \(9\).
+2. it contains an element of order $9$ whose centralizer has order $9$.
 
-For GF(2)-modules, the elements of \(V\) automatically satisfy the rationality
-condition because \(V\) is elementary abelian of exponent \(2\).  Thus the code
+For GF(2)-modules, the elements of $V$ automatically satisfy the rationality
+condition because $V$ is elementary abelian of exponent $2$.  Thus the code
 constructs the relevant split extensions, and also constructs all non-split
-extensions when \(H^2(A,V)\neq 0\).
+extensions when $H^2(A,V)\neq 0$.
 
 For GF(5)-modules, the extensions are too large to construct in general.  It is
-enough to test rationality on \(V\): if there exists \(v\in V^\#\) such that
-\(2v\) is not in the same \(A\)-orbit as \(v\), then no rational extension with
+enough to test rationality on $V$: if there exists $v\in V^\#$ such that
+$2v$ is not in the same $A$-orbit as $v$, then no rational extension with
 this chief factor can occur.
 
 The computation finds exactly two groups:
-\[
+$$
 2^6:\mathrm{Aut}(\mathrm{PSp}_4(3))
 \quad\text{and}\quad
 2^6.\mathrm{Aut}(\mathrm{PSp}_4(3)),
-\]
+$$
 where the first extension is split and the second is non-split.
 
 The two resulting groups are also stored explicitly at the end of this file as
@@ -514,32 +514,32 @@ fi;
 
 ## Summary
 
-Let \(A=\operatorname{Aut}(\operatorname{PSp}_4(3))\), and let \(V\) be an
-irreducible GF(2)- or GF(5)-module for \(A\).  Among the extensions \(V.A\)
-which are rational and contain an element of order \(9\) whose centralizer has
-order \(9\), the computation leaves exactly two possibilities:
+Let $A=\operatorname{Aut}(\operatorname{PSp}_4(3))$, and let $V$ be an
+irreducible GF(2)- or GF(5)-module for $A$.  Among the extensions $V.A$
+which are rational and contain an element of order $9$ whose centralizer has
+order $9$, the computation leaves exactly two possibilities:
 
-\[
+$$
 2^6:A
 \quad\text{and}\quad
 2^6.A.
-\]
+$$
 
 The first group is the split extension.  The second group is the non-split
-extension; computationally this is confirmed by the fact that \(O_2(G)\) has no
+extension; computationally this is confirmed by the fact that $O_2(G)$ has no
 complement in the non-split group.
 
-For GF(5)-modules, every irreducible module on which an element of order \(9\)
-acts fixed-point-freely already fails rationality on \(V\): there exists
-\(v\in V^\#\) such that \(2v\) is not in the same \(A\)-orbit as \(v\).
+For GF(5)-modules, every irreducible module on which an element of order $9$
+acts fixed-point-freely already fails rationality on $V$: there exists
+$v\in V^\#$ such that $2v$ is not in the same $A$-orbit as $v$.
 Hence no GF(5)-module gives a candidate extension.
 
 The following lists record the conjugacy-class data of the two candidate
-groups.  Each pair \([m,n]\) means that there is a conjugacy class whose
-representative has order \(m\), and whose centralizer has order \(n\).  The
-pairs are ordered by increasing centralizer order \(n\).
+groups.  Each pair $[m,n]$ means that there is a conjugacy class whose
+representative has order $m$, and whose centralizer has order $n$.  The
+pairs are ordered by increasing centralizer order $n$.
 
-For the split extension \(2^6:A\), the list is:
+For the split extension $2^6:A$, the list is:
 
 ```text
 [ [ 9, 9 ], [ 12, 12 ], [ 8, 16 ], [ 8, 16 ],
@@ -561,7 +561,7 @@ For the split extension \(2^6:A\), the list is:
   [ 2, 122880 ], [ 1, 3317760 ] ]
 ```
 
-For the non-split extension \(2^6.A\), the list is:
+For the non-split extension $2^6.A$, the list is:
 
 ```text
 [ [ 9, 9 ], [ 12, 12 ], [ 8, 16 ], [ 8, 16 ],
@@ -584,5 +584,5 @@ For the non-split extension \(2^6.A\), the list is:
 ```
 
 In particular, in both candidate groups the smallest centralizer order among
-non-identity elements is \(9\), and there is a class represented by an element
-of order \(9\) whose centralizer has order \(9\).
+non-identity elements is $9$, and there is a class represented by an element
+of order $9$ whose centralizer has order $9$.

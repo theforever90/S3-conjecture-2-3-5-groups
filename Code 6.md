@@ -15,7 +15,7 @@ constructs the relevant split extensions, and also constructs all non-split
 extensions when $H^2(A,V)\neq 0$.
 
 For GF(5)-modules, the extensions are too large to construct in general.  It is
-enough to test rationality on $V$: if there exists $v\in V^\#$ such that
+enough to test rationality on $V$: if there exists $v\in V$ such that
 $2v$ is not in the same $A$-orbit as $v$, then no rational extension with
 this chief factor can occur.
 
@@ -521,7 +521,7 @@ complement in the non-split group.
 
 For GF(5)-modules, every irreducible module on which an element of order $9$
 acts fixed-point-freely already fails rationality on $V$: there exists
-$v\in V^\#$ such that $2v$ is not in the same $A$-orbit as $v$.
+$v\in V$ such that $2v$ is not in the same $A$-orbit as $v$.
 Hence no GF(5)-module gives a candidate extension.
 
 The following lists record the conjugacy-class data of the two candidate

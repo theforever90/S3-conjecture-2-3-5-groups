@@ -508,7 +508,7 @@ fi;
 
 ## Summary
 
-Let $A=\mathrm{Aut}(\operatorname{PSp}_4(3))$, and let $V$ be an
+Let $A=\mathrm{Aut}(\mathrm{PSp}_4(3))$, and let $V$ be an
 irreducible GF(2)- or GF(5)-module for $A$.  Among the extensions $V.A$
 which are rational and contain an element of order $9$ whose centralizer has
 order $9$, the computation leaves exactly two possibilities:

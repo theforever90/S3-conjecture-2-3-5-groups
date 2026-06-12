@@ -2,10 +2,7 @@
 
 ## Purpose
 
-Let
-$$
-A=\mathrm{Aut}(\mathrm{PSp}_4(3)).
-$$
+Let $A=\mathrm{Aut}(\mathrm{PSp}_4(3)).$
 This code searches the irreducible GF(2)- and GF(5)-modules $V$ of $A$
 for extensions $V.A$ satisfying the following two conditions:
 
@@ -23,11 +20,8 @@ $2v$ is not in the same $A$-orbit as $v$, then no rational extension with
 this chief factor can occur.
 
 The computation finds exactly two groups:
-$$
-2^6:\mathrm{Aut}(\mathrm{PSp}_4(3))
-\quad\text{and}\quad
-2^6.\mathrm{Aut}(\mathrm{PSp}_4(3)),
-$$
+
+$2^6:\mathrm{Aut}(\mathrm{PSp}_4(3)) \quad\text{and}\quad 2^6.\mathrm{Aut}(\mathrm{PSp}_4(3)),$
 where the first extension is split and the second is non-split.
 
 The two resulting groups are also stored explicitly at the end of this file as
@@ -514,16 +508,12 @@ fi;
 
 ## Summary
 
-Let $A=\operatorname{Aut}(\operatorname{PSp}_4(3))$, and let $V$ be an
+Let $A=\mathrm{Aut}(\operatorname{PSp}_4(3))$, and let $V$ be an
 irreducible GF(2)- or GF(5)-module for $A$.  Among the extensions $V.A$
 which are rational and contain an element of order $9$ whose centralizer has
 order $9$, the computation leaves exactly two possibilities:
 
-$$
-2^6:A
-\quad\text{and}\quad
-2^6.A.
-$$
+$2^6:A \quad\text{and}\quad 2^6.A.$
 
 The first group is the split extension.  The second group is the non-split
 extension; computationally this is confirmed by the fact that $O_2(G)$ has no

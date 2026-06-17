@@ -11,7 +11,7 @@ $$
 This code finds all rational groups $G$ satisfying
 
 $$
-R\leq G\leq \operatorname{Aut}(R).
+R\leq G\leq \mathrm{Aut}(R).
 $$
 
 For every such group, it also computes the data

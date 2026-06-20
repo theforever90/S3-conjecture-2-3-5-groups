@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This code is used in Lemma 28, step (2.3).  It checks the following statement.
+It checks the following statement.
 
 Let `G` be `S6` or `Aut(A6)`, and let `V` be an irreducible GF(2)-, GF(3)-, or
 GF(5)-module for `G`.  No extension `V.G`, split or non-split, can satisfy both
@@ -134,7 +134,7 @@ CheckPrime := function(G, name, p)
     gens := GeneratorsOfGroup(G);
     mods := IrreducibleModules(G, F)[2];
 
-    # In Lemma 28, step (2.3), the image of the element has 2-power order.
+    # The image of the element has 2-power order.
     # Thus only quotient classes of order 4 or 8 can contribute here.
     targetClasses := Filtered(ConjugacyClasses(G),
         c -> Order(Representative(c)) in [4, 8] and

@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This code is used in Lemma 28, step (2.4), for the subcase
+This code is for the subcase
 
 ```text
 V1.Gbar is isomorphic to C2 x S5.

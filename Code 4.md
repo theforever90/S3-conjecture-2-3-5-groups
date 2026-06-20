@@ -15,8 +15,6 @@ For each candidate, this code checks:
 4. whether every element outside $V$ with centralizer of order less than $8$
    is conjugate into a complement isomorphic to $S_5$.
 
-This is used in Lemma 16.
-
 ## Code
 
 ```gap

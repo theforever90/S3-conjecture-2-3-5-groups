@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This code is used in Lemma 28, case (3), where `|gbar|=2`.
+This code is for the case where `|gbar|=2`.
 
 After the preceding reductions, if `H` is chosen so that `K/H` is a chief factor
 of `G`, then `G/H` is one of the rational extensions of `S5` by an irreducible

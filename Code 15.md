@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This code is used in Step (2.5), where
+Here
 
 ```text
 G/N is isomorphic to C2 x S5.

@@ -2,8 +2,6 @@
 
 ## Purpose
 
-This code is used in Lemma 20.
-
 Let
 
 ```text
@@ -350,4 +348,4 @@ not contain either `2v` or `3v`, as required in the proof.
 
 For the GF(2) case, the `C2 x S5` and `S3 x S5` extension searches show that no
 extension is simultaneously rational and contains an element with centralizer
-order `8`.  This excludes the two GF(2) subcases in Lemma 20.
+order `8`.  This excludes the two GF(2) subcases.

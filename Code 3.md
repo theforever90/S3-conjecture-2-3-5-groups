@@ -415,7 +415,7 @@ Distinct sizes (15 values):
   ( 1,  14400)
 ```
 
-> **Critical for Lemma 28:** This is the unique rational group in the lattice that simultaneously contains $|C| = 10$ and $|C| = 15$ (from elements of order 10 and 15 respectively).
+> This is the unique rational group in the lattice that simultaneously contains $|C| = 10$ and $|C| = 15$ (from elements of order 10 and 15 respectively).
 
 ### Rational Group #4 — $\mathrm{Aut}(A_5 \times A_5) \cong (A_5 \times A_5) \rtimes D_8$ (order 28800)
 
@@ -472,7 +472,7 @@ Distinct sizes (24 values):
   ( 1,  28800)
 ```
 
-> **Critical for Lemma 27:** This group contains a **self-centralizing element of order 8** ($|C|=8$), as well as $|C|=10$. The existence of such an 8-element triggers the extensive module-extension analysis in Lemma 27.
+> This group contains a **self-centralizing element of order 8** ($|C|=8$), as well as $|C|=10$. The existence of such an 8-element triggers the extensive module-extension analysis in the paper.
 
 ---
 

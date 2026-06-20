@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This code is used in Lemma 28, step (2.4), after the case
+After the case
 `V1.Gbar = C2 x S5` has been eliminated.
 
 In this remaining case,

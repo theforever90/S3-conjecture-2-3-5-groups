@@ -2,8 +2,7 @@
 
 ## Purpose
 
-This code supports Lemma `C2S5`.  It verifies the two computational facts used
-in the proof.
+This code verifies two computational facts:
 
 1. If `|H| = 3`, `G/H = C2 x S5`, `G` is rational, and `G` has an element with
    centralizer order `8`, then `G` is isomorphic to `S3 x S5`.
@@ -195,7 +194,7 @@ ID | dim | fixed dims on target classes | fixed-free?
 
 For `|H| = 3`, the only rational candidate with an element of centralizer order
 `8` is `SmallGroup(720,767)`, which has structure `S5 x S3`.  Hence in the
-base case of Lemma `C2S5`, `G` is isomorphic to `S3 x S5`.
+base case, `G` is isomorphic to `S3 x S5`.
 
 For the module calculation, all irreducible GF(3)-modules of dimension greater
 than `1` have non-zero fixed-point spaces on both target classes.  Therefore, if
